@@ -1,0 +1,40 @@
+import java.util.*;
+
+public class MinStack {
+	
+	
+	
+	private Stack<element> stack;
+	
+	class element{
+		int val;
+		int min;
+	}
+	
+	public MinStack(){
+		
+	}
+	
+	
+	public void push(int x){
+		
+	}
+	
+	public int pop(){
+		
+		
+	}
+	
+	public int top(){
+		
+		
+	}
+	
+	public int getMin(){
+		
+		
+	}
+	
+	
+	
+}

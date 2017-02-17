@@ -1,0 +1,41 @@
+import java.util.*;
+
+public class Solution {
+	
+	
+	
+	
+	public String Perm_Seq(int n, int k){
+		// assume n > 0 and k > 0
+		
+		//create factoral array
+		int[] factor = new int[n];
+		factor[0] = 1;
+		for(int i = 1; i <= n; i++){
+			factor[i] *= factor[i-1];
+		}
+		
+		StringBuilder sb = new StringBuilder();
+		boolean[] check = new boolean[n];
+		// check n layer
+		for(int i = n; i >=1; i++){
+			int branch = k/factor[i-1];
+			int left = k%factor[i-1];
+			if(left > 0){
+				branch++;
+			}
+			k -= (branch-1)*factor[i-1];
+			
+			int index = 0;
+			for(int j = 0; j < branch; j++){
+				while(check[index]){
+					index++;
+				}
+			}
+			sb.append(Integer.toString(index));
+		}
+		
+		return sb.toString();
+	}
+	
+}

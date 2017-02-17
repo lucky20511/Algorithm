@@ -1,0 +1,2 @@
+INDEX VERSION 1.127+/Users/Luckman/Documents/Programs/Algorithm/.metadata/.plugins/org.eclipse.jdt.core
+1152447263.index
