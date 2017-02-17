@@ -2,3 +2,9 @@
 .metadata/
 .recommenders
 .recommenders/
+.project
+.classpath
+.settings/
+.settings
+bin/
+bin
