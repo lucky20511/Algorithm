@@ -37,7 +37,7 @@ public class Solution {
 			//update the k
 			k -= (branch-1)*factor[i-1];
 			
-			/* find the (branch)th value of current value */
+			/* find the (branch)th value of current layer */
 			int index = 1;
 			for(int j = 0; j < branch; j++, index++){
 				while(check[index]){
