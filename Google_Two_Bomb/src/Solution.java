@@ -10,11 +10,9 @@ public class Solution {
 	public int TwoBomb(int i, int j){
 		
 		int count = 0;
-		while(i != 1 || j != 1){
+		for(; i != 1 || j != 1;count++)
 			if(j > i) j -= i;
 			else i -= j;
-			count++;
-		}
 		return count;
 	}
 	
