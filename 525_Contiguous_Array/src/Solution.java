@@ -12,6 +12,7 @@ public class Solution {
 	
 	public int findMaxLength(int[] nums) {
         
+		// the idea is the period 
         int MaxLen = 0;
         HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
         map.put(0,-1);  // very important

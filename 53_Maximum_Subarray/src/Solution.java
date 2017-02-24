@@ -19,6 +19,7 @@ public class Solution {
 			if(Max < total ){
 				Max = total;
 			}
+			// need to prove when total < 0, there is no substrings in the left part > 0!
 			if(total < 0){
 				total = 0;
 			}
