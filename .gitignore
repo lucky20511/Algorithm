@@ -8,3 +8,4 @@
 .settings
 bin/
 bin
+.DS_Store
