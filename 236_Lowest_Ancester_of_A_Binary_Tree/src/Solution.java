@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Solution {
 
-	// TreeNode
+	// TreeNode Class
 	class TreeNode {
 		int val;
 		TreeNode left;
